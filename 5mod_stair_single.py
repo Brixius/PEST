@@ -58,7 +58,7 @@ class stair:
 		if self.repeats <= -4:
 			self.step = self.step*2
 			self.doubled = 1
-		elif self.repeats > 4:
+		elif self.repeats > -4:
 			self.doubled = 0
 		if self.step < self.stepMin:
 			self.step = self.stepMin
