@@ -61,7 +61,7 @@ except NameError:
 
 #Titrate across trials
 for trial in range(0, 150): #allowing up to 150 trials before program breaks
-	response = raw_input("Trial %d: Does participant detect a stimulus with a contrast of  %.2f? (y/n)\n" % (trial, threshold))
+	response = input("Trial %d: Does participant detect a stimulus with a contrast of  %.2f? (y/n)\n" % (trial, threshold))
 	if response.lower() in ("y", "yes"):
      		Correct = True
 	else:
